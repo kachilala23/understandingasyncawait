@@ -1,0 +1,21 @@
+We are using the dog.ceo api which can be located at https://dog.ceo/dog-api
+
+https://dog.ceo/api/breed/hound/images/random Fetch!
+
+npm i superagent // to help us make http calls.
+
+A promise basically implemt the concept of a fuure value that we are expecting to receive sometime
+in the future. It is like saying Hey server/api get me the list of customers and let me know when you are ready
+and then give me the data back.
+
+The main difference between a callback and promises is that call back makes our code messy and difficult to maintain
+but with promises we can chain the promises to one another instead of nesting them like callbacks.
+
+A promise as soon as it comes back with the data is called a resolved promised. In the begining it is a pending promise
+and when it successfully gets the data then it becomes a resolved promised.
+
+However a resolved promise might not always be successful because there might have been an error so we say
+a resolved promised can either be fulfilled or rejected. 
+
+It is fulfilled when we get the data back but rejected when there is an error. We usually use the method catch
+to catch the errors. 
